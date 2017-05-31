@@ -1,0 +1,265 @@
+/*columns double everything version*/
+
+* {
+    -webkit-tap-highlight-color: transparent;
+} /*This is to hopefully keep it from highlighting blue in Silk.*/
+
+/*choosing font*/
+html {
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*background color transition is for end game animation*/
+body {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #FFFFFD;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+/*Start Game Direction Box*/
+#start {
+  padding: 1rem;
+  border: 5px solid #D46161;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 2rem;
+  transition: all 250ms ease-in-out;
+}
+
+h3#start:hover {
+  color: #fff;
+  background-color: #D46161;
+}
+
+
+/*Header banner*/
+.logo {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+/*Game Title*/
+h1 {
+  padding: 0 20px;
+  margin: 20px auto;
+  margin-bottom: 0;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans';
+}
+
+/*Game Board Area Originally because
+  the directions were on the page with
+  the game. Now holds the start and end
+  boxes. */
+.game-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 0 30px 30px 30px;
+}
+
+/*Directions Box*/
+.directions {
+  position: absolute;
+  top: 400px;
+  margin: 0 auto;
+  z-index: 100;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  border: 5px solid #000;;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  }
+
+/*Directions Headings*/
+h3 {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #D46161;
+}
+
+/*directions paragraphs*/
+p {
+  padding: 0 4rem;
+  line-height: 1.3;
+}
+
+/*Where the cards go, the lighter
+  blue box with black border*/
+.card-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  width: 40rem;
+  background-color: #b73232;
+  padding: 50px;
+  border: 5px solid #000;
+  border-radius: 15px;
+}
+
+.game1,
+.game2 {
+  display: flex;
+  flex-direction: column;
+}
+/*each card and the flex puts the string
+  in the middle of the card*/
+.card1 {
+  font-size: 2rem;
+  padding: 10px;
+  height: 7rem;
+  width: 7rem;
+  background-color: #D46161;
+  border: 5px solid #000;
+  border-radius: 15px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card2 {
+  font-size: 1.5rem;
+  padding: 10px;
+  height: 7rem;
+  width: 18rem;
+  background-color: #D46161;
+  border: 5px solid #000;
+  border-radius: 15px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*game over section
+  H2 Play Again?
+  endScreen is the box it's in*/
+h2 {
+  color: #D46161;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 8rem;
+}
+a{
+  text-decoration: none;
+}
+
+#endScreen {
+  position: absolute;
+  top: 400px;
+  margin: 0 auto;
+  z-index: 100;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  border: 5px solid #000;;
+  border-radius: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+/* for smaller screens */
+@media only screen and (max-width: 760px) {
+  body {
+    width: 100%;
+  }
+  .card1 {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .card2 {
+    height: 6rem;
+    width: 12rem;
+  }
+
+  .card-layout {
+    width: 98%;
+    padding: 20px 0;
+    border: 1px solid #fff;
+    border-radius: 15px;
+  }
+  .game-space {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+  }
+  .directions {
+    top: 200px;
+    width: 350px;
+  }
+  #endScreen {
+    top: 200px;
+    width: 350px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+/*closes mobile changes*/
