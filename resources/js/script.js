@@ -23,8 +23,6 @@
   var $game2 = $('#game2');
   var $card1 = $('.card1');
   var $card2 = $('.card2');
-  var cards1 = [['small', 1], ['day', 2], ['sad', 5], ['hard', 3], ['low', 4], ['yes', 6]];
-  var cards2 = [['huge, big, enormous', 1], ['excited, happy, glad', 5], ['night, evening', 2], ['soft, easy', 3], ['high', 4], ['no', 6]];
   var flippedCards = [];
 //This takes 12 cards, 6 matches, answers/definitions in cards2
 
