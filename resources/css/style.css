@@ -143,10 +143,10 @@ p {
 /*each card and the flex puts the string
   in the middle of the card*/
 .card1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 10px;
   height: 7rem;
-  width: 7rem;
+  width: 10rem;
   background-color: #D46161;
   border: 5px solid #000;
   border-radius: 15px;
@@ -222,7 +222,7 @@ a{
   }
   .card1 {
     height: 6rem;
-    width: 6rem;
+    width: 7rem;
   }
 
   .card2 {
@@ -248,7 +248,7 @@ a{
         -ms-flex-align: center;
             align-items: center;
     width: 98%;
-    margin: 0;
+    margin: 1rem;
     padding: 0;
   }
   .directions {
