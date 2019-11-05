@@ -11,6 +11,11 @@ html {
   cursor: pointer;
 }
 
+sup {
+  vertical-align:super;
+  font-size: 12px;
+}
+
 /*background color transition is for end game animation*/
 body {
   width: 70%;
