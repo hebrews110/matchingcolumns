@@ -24,6 +24,10 @@
   var $card1 = $('.card1');
   var $card2 = $('.card2');
   var flippedCards = [];
+  var random = Math.floor(Math.random() * 6);
+//  var background = ["#0D1C2A", "#0E6655", "#97a8cf", "#F7DC6F"];
+//  var colorChoice = background[random];
+//  $(".card-layout").css("background-color", colorChoice);
 //This takes 12 cards, 6 matches, answers/definitions in cards2
 
 $(document).ready(function() {

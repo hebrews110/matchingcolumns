@@ -1,5 +1,15 @@
 /*columns double everything version*/
 
+img.large {
+  height: 8rem;
+  width: auto;
+}
+
+img.small {
+  height: 3rem;
+  width: auto;
+}
+
 * {
     -webkit-tap-highlight-color: transparent;
 } /*This is to hopefully keep it from highlighting blue in Silk.*/

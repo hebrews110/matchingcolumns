@@ -1,0 +1,4 @@
+//antonyms to be paired with script.js in column
+
+var cards1 = [['<img class="small" src="./resources/images/1.30.dig.png"/>', 1], ['<img class="small" src="./resources/images/4.30.dig.png"/>', 2], ['<img class="small" src="./resources/images/5.30.dig.png"/>', 3], ['<img class="small" src="./resources/images/7.30.dig.png"/>', 4], ['<img class="small" src="./resources/images/9.30.dig.png"/>', 5], ['<img class="small" src="./resources/images/2.30.dig.png"/>', 6]];
+var cards2 = [['<img class="large" src="./resources/images/1.30.ana.png"/>', 1], ['<img class="large" src="./resources/images/4.30.ana.png"/>', 2], ['<img class="large" src="./resources/images/5.30.ana.png"/>', 3], ['<img class="large" src="./resources/images/7.30.ana.png"/>', 4], ['<img class="large" src="./resources/images/9.30.ana.png"/>', 5], ['<img class="large" src="./resources/images/2.30.ana.png"/>', 6]];
