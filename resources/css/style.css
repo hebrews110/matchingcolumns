@@ -10,6 +10,11 @@ img.small {
   width: auto;
 }
 
+img.medium {
+  height: 7rem;
+  width: auto;
+}
+
 * {
     -webkit-tap-highlight-color: transparent;
 } /*This is to hopefully keep it from highlighting blue in Silk.*/
