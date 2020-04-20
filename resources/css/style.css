@@ -271,14 +271,23 @@ a{
     margin: 1rem;
     padding: 0;
   }
+  
   .directions {
-    top: 200px;
-    width: 350px;
+    top: 300px;
+    width: 95%;
   }
+
+  p{
+    padding: 0 1rem;
+  }
+
   #endScreen {
-    top: 200px;
-    width: 350px;
+    top: 300px;
+    width: 95%;
+    margin:auto;
+    text-align: center;
   }
+
   h1 {
     font-size: 3rem;
   }
