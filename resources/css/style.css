@@ -163,7 +163,7 @@ p {
 /*each card and the flex puts the string
   in the middle of the card*/
 .card1 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   padding: 10px;
   height: 7rem;
   width: 10rem;
@@ -243,11 +243,13 @@ a{
   .card1 {
     height: 6rem;
     width: 7rem;
+    font-size: 1.3rem;
   }
 
   .card2 {
     height: 6rem;
     width: 12rem;
+    font-size: 1.2rem;
   }
 
   .card-layout {
@@ -271,7 +273,7 @@ a{
     margin: 1rem;
     padding: 0;
   }
-  
+
   .directions {
     top: 300px;
     width: 95%;
